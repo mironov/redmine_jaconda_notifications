@@ -1,0 +1,12 @@
+<fieldset>
+<legend><%= l(:jaconda_label_settings) %></legend>
+
+<p>
+  <label><%= l(:jaconda_label_room_id) %></label><%= text_field_tag 'settings[room_id]', @settings['room_id'] %>
+</p>
+
+<p>
+  <label><%= l(:jaconda_label_api_token) %></label><%= text_field_tag 'settings[api_token]', @settings['api_token'] %>
+</p>
+
+</fieldset>
