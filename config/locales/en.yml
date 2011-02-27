@@ -1,4 +1,5 @@
 en:
   jaconda_label_settings: Jaconda configuration settings
-  jaconda_label_room_id: Numerical Room ID
-  jaconda_label_api_token: API token
+  jaconda_label_subdomain: Subdomain
+  jaconda_label_room_id: Room ID
+  jaconda_label_room_token: Room token
